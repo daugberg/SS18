@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="da-DK">
+
+<head>
+    <meta charset="utf-8" />
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script><![endif]-->
+    <title>September Salon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="images/logo-ico2.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="language">
+            <a href="index.html">Dansk</a> <a class="current" href="#">English</a>
+        </div>
+        
+        <div id="logo">
+            <a href="index_eng.html"><img src="images/logo-main.svg"></a>
+        </div>
+        
+        <!-- desktop menu -->
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li><a href="index_eng.html">FRONTPAGE</a></li>
+                    <li><a href="salon_eng.html">SALON</a></li>
+                    <li><a href="invitation_eng.html">INVITATION</a></li>
+                    <li><a href="kollektioner_eng.html">COLLECTIONS</a></li>
+                    <li><a href="measure_eng.html">MEASURE</a></li>
+                    <li><a contact="current" href="kontakt_eng.html">CONTACT</a></li>
+                </ul>
+            </nav>   
+        <!-- mobile menu -->
+            <p><a href="#main_nav" id="access_nav" class="access_aid">Skip to navigation</a></p>
+            <nav id="main_nav">
+                <ul>
+                    <li><a href="index_eng.html">FRONTPAGE</a></li>
+                    <li><a href="salon_eng.html">SALON</a></li>
+                    <li><a href="invitation_eng.html">INVITATION</a></li>
+                    <li><a href="kollektioner_eng.html">COLLECTIONS</a></li>
+                    <li><a href="measure_eng.html">MEASURE</a></li>
+                    <li><a href="kontakt_eng.html">CONTACT</a></li>
+                <p><a href="#body" id="access_top" class="access_aid">Skip to top</a></p>
+                </ul>
+            </nav>
+        </div>
+            
+    </header>
+<main>
+        <article class="flex-kontakt">
+            <section class="kontaktinfo">
+                <h2>Adresse</h2><br>
+                <p>September Salon<br> Sydhavnsgade 7<br> 8000 Aarhus C</p><br><br>
+                <h2>Telefon</h2><br>
+                <p>Trine: 27 83 74 18<br> Mette: 53 55 05 51</p><br><br>
+                <h2>Mail</h2><br>
+                <p>mail@septembersalon.dk</p><br><br>
+                <h2>Social</h2><br>
+                <p>Facebook<br> Instagram
+                </p>
+            </section>
+            <section class="kontaktpic">
+                <img src="images/kontakt.png">
+            </section>
+        </article>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: 56.1448514,
+                    lng: 10.2097917
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 16,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5IN_6TPUViLDWULC3dYsBMTLH1Yt5UnY&callback=initMap">
+        </script>
+    </main>
+    
+<footer id="mobile-footer">
+        <div id="footer-content">
+            <p>September Salon</p>
+            <p>September Salon</p>
+            <p>Sydhavnsgade 7, 8000 Aarhus</p>
+            <p>mail@septembersalon.dk</p>
+            <p>Telefon: +45 27837418</p>
+        </div>
+            
+        <div id="footer-block">
+            <a href="#">
+                <img src="images/facebook-logo.jpg">
+            </a>
+            
+            <a href="#">
+                <img src="images/icons8-linkedin-50%20(1).png">
+            </a>
+            
+            <a href="#">
+                <img src="images/instagram_logo.svg">
+            </a>
+        </div>
+    
+    </footer>
+    
+    <footer id="desktop-footer">
+        <div class="row">
+            <div class="column left">
+                <p>Made to Meassure</p>
+                <p>Om Septembersalon</p>
+                <p>Kundetilfredshed</p>
+                <p>Omtale</p>
+                <p>Kontakt</p>
+            </div>
+            
+            <div class="column middle">
+                <p>September Salon</p>
+                <p>Sydhavnsgade 7, 8000 Aarhus</p>
+                <p>mail@septembersalon.dk</p>
+                <p>Telefon: +45 27837418</p>
+            </div>
+            
+            <div class="column right">
+                <a href="https://www.facebook.com/septembersalon.dk/?hc_ref=ARSbUCyP7qiEXWz0kZ7JGwW3DQRI-OujK_O3FnI0hN3wrjbBVB3fvwXojR33RAw-Lhg&fref=nf"><img src="images/facebook-logo.jpg"></a>
+                <a href="https://www.instagram.com/septembersalon/"><img src="images/instagram_logo.svg"></a>
+                <a href="https://www.linkedin.com/company/10477079/admin/updates/"><img src="images/icons8-linkedin-50%20(1).png"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

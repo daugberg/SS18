@@ -1,0 +1,3055 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    /* background-image: linear-gradient(to right, rgba(161, 88, 65, 1), rgba(227, 181, 161, 1), rgba(161, 88, 65, 1));
+    background-image: linear-gradient(to top, rgba(161, 88, 65, 1), rgba(227, 181, 161, 1));
+    /*
+    background-image: linear-gradient(to top, rgba(247, 231, 189, 1), rgba(251, 213, 181, 1), rgba(251, 213, 182, 1), rgba(255, 191, 170, 1));
+    */
+    background-color: rgb(234, 206, 167);
+    width: 100%;
+    overflow-X: hidden;
+}
+
+h1 {
+    /* border: 3px solid #616161; */
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 2rem;
+    padding-bottom: 2%;
+}
+
+/* h1:hover {
+    border: 3px solid white;
+} */
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix2 {
+    overflow: auto;
+    margin: 0 auto;
+    margin-left: 8.5%;
+}
+
+.flex {
+    display: flex;
+}
+
+/* --------- Measure.html --------- */
+
+.content-right p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 1%;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.content-right p:hover {
+    border: 1px solid #cbcbcb;
+}
+
+.content-right img {
+    width: 100%;
+    border: 3px solid grey;
+}
+
+.content-right2 img {
+    width: 100%;
+    border: 3px solid grey;
+}
+
+/* --------- Kontakt.html --------- */
+
+.kontaktpic {
+    display: block;
+    width: 100%;
+}
+
+.kontaktpic img {
+    width: 100%;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.flex-kontakt {
+    padding-top: 2%;
+    padding-bottom: 1.8%;
+}
+
+.kontaktinfo {
+    text-align: center;
+    color: #000;
+    padding: 2rem;
+
+}
+
+.kontaktinfo h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: -.4rem;
+}
+
+.kontaktinfo p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
+/* ------ Invitation.html ------- */
+
+#invitation-center p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#invitation-tekst {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 7%;
+}
+
+.container-invitation {
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 8%;
+    margin-left: 40%;
+}
+
+input[type=text],
+input[type=password] {
+    width: 18vw;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    display: inline-block;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    background: white;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.registerbtn:hover {
+    /* border: 2px solid lightgreen; */
+    border: 2px solid black;
+}
+
+.registerbtn:focus {
+    outline: none;
+}
+
+.invitation-main {
+    background-image: url(../images/SeptemberSalon_SS18.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ----- INDEX - ASGER _ NY - Index.html ------------------- */
+
+.r1 a {
+    width: 50%;
+}
+
+.index1 {
+    background-image: url(images/suitcase-index.webp);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin-right: 1.2em;
+}
+
+.index2 {
+    background-image: url(images/made-to-measure-index.webp);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.index3 {
+    background-image: url(images/baeredygtigt-stof.webp);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin-right: 1.2em;
+    margin-top: .6em;
+}
+
+.index4 {
+    background-image: url(images/salon-fashion.webp);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+    margin-top: .6em;
+}
+
+/* ----- Salon - salon.html ------------------- */
+
+.salonpic {
+    display: none;
+}
+
+.salon1 {
+    background-image: url(images/salon4.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.salon2 {
+    background-image: url(images/salon5.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: .5em;
+}
+
+.salon3 {
+    background-image: url(images/salon6.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.salon4 {
+    background-image: url(images/salon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    margin-right: .5em;
+}
+
+.salon5 {
+    background-image: url(images/salon1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.salon6 {
+    background-image: url(images/salon3.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- M2M - measure.html ------------------- */
+
+.r1 img {
+    max-width: 100%;
+}
+
+.textleft {
+    width: 100%;
+}
+
+.measurepic {
+    display: none;
+}
+
+.m2m1 {
+    background-image: url(images/made-to-measure-3.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.m2m3 {
+    background-image: url(images/made-to-measure-4.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: .5em;
+}
+
+.m2m4 {
+    background-image: url(images/made-to-measure-2.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.m2m5 {
+    background-image: url(images/made-to-measure-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+    margin-right: .5em;
+}
+
+.m2m6 {
+    background-image: url(images/made-to-measure-6.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.m2m7 {
+    background-image: url(images/made-to-measure-7.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* --------- Kontakt.html --------- */
+
+.kontaktpic {
+    display: none;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.kontaktinfo {
+    text-align: left;
+    color: #000;
+}
+
+.kontaktinfo p {
+    font-size: 1.2rem;
+}
+
+
+/* ---- KOLLEKTIONER _ ASGER _ kollektioner.html ----------------- */
+
+.kh1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/maj18w.jpg);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+}
+
+#c1 {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+}
+
+#c1 h1 {
+    text-align: center;
+    padding: .4em;
+}
+
+.r1 {
+    display: flex;
+    min-height: 20em;
+    width: 100%;
+}
+
+.r2 {
+    display: flex;
+    height: 20em;
+    width: 100%;
+    margin-bottom: -.8em;
+}
+
+.c2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.c3 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.pic2 {
+    background-image: url(images/sc1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.pic3 {
+    background-image: url(images/40.jpg);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: .5em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.pic4 {
+    background-image: url(images/sc11.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: .5em;
+}
+
+.pic5 {
+    background-image: url(images/sc12.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.pic6 {
+    background-image: url(images/sc6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.pic7 {
+    background-image: url(images/sc4.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: .5em;
+}
+
+.pic8 {
+    background-image: url(images/sc5.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: .5em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+.flerekollektioner {
+    display: block;
+    padding-top: 1em;
+}
+
+.flerekollektioner a {
+    text-decoration: none;
+}
+
+.flerekollektioner h2 {
+    color: #000;
+    text-align: left;
+    padding: .6em;
+    font-size: 1.4em;
+}
+
+.flerekollektioner section {
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+}
+
+.flerekollektioner section:hover {
+    border: 3px solid #848484;
+}
+
+.sc18 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/sc1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    background-position: center;
+    width: 100%;
+    margin-right: 0em;
+    margin-bottom: 0em;
+}
+
+.sc18- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/sc1.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    background-position: center;
+    width: 100%;
+    margin-right: 0em;
+}
+
+
+.ss18 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss18.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    background-position: center;
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+.ss18- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss18.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    background-position: center;
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+.aw17 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/aw17.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    margin-right: 0em;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.aw17- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw17.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    margin-right: 0em;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.ss17 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss17.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    max-width: 100%;
+    background-position: center;
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+.ss17- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss17.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    max-width: 100%;
+    background-position: center;
+    width: 100%;
+    margin-bottom: -1em;
+}
+
+.aw16 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/aw16.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    margin-right: 0em;
+    background-position: center;
+    width: 100%;
+}
+
+.aw16- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw16.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    margin-right: 0em;
+    background-position: center;
+    width: 100%;
+}
+
+.ss16 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss16.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    margin-bottom: -1em;
+}
+
+.ss16- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss16.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    margin-bottom: -1em;
+}
+
+.fb17 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/fullbloom.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    margin-right: 0em;
+    width: 100%;
+    background-position: center;
+}
+
+.fb17- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/fullbloom.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    margin-right: 0em;
+    width: 100%;
+    background-position: center;
+}
+
+.aw15 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw153.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    background-position: center;
+    width: 100%;
+}
+
+.aw15- {
+    background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw153.png);
+    background-repeat: no-repeat;
+    border: 3px solid grey;
+    background-position: center;
+    width: 100%;
+}
+
+
+/* ----- SS18 - Kollektioner - kollektioner/ss18.html ------------------------ */
+
+.sspic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss18.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.sspic2 {
+    background-image: url(images/ss180.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.sspic3 {
+    background-image: url(images/ss18stof.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.sspic4 {
+    background-image: url(images/ss181.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.sspic5 {
+    background-image: url(images/ss187.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.sspic6 {
+    background-image: url(images/ss182.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.sspic7 {
+    background-image: url(images/ss186.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.sspic8 {
+    background-image: url(images/ss189.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- SS17 - Kollektioner - kollektioner/ss17.html ------------------------ */
+
+.ss17pic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss174.png);
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.ss17pic2 {
+    background-image: url(images/ss171.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    background-position: center;
+    height: 50%;
+    background-size: cover;
+}
+
+.ss17pic3 {
+    background-image: url(images/ss172.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    height: 50%;
+    background-size: cover;
+}
+
+.ss17pic4 {
+    background-image: url(images/ss175.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.ss17pic5 {
+    background-image: url(images/ss176.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.ss17pic6 {
+    background-image: url(images/ss17.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.ss17pic7 {
+    background-image: url(images/ss179.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.ss17pic8 {
+    background-image: url(images/ss177.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- SS17 - Kollektioner - kollektioner/ss17.html ------------------------ */
+
+.ss16pic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss168.png);
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.ss16pic2 {
+    background-image: url(images/ss161.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.ss16pic3 {
+    background-image: url(images/ss162.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.ss16pic4 {
+    background-image: url(images/ss16.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.ss16pic5 {
+    background-image: url(images/ss166.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.ss16pic6 {
+    background-image: url(images/ss167.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.ss16pic7 {
+    background-image: url(images/ss169.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.ss16pic8 {
+    background-image: url(images/ss168.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- AW17 - Kollektioner - kollektioner/aw17.html ------------------------ */
+
+.aw17pic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw17.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.aw17pic2 {
+    background-image: url(images/aw176.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.aw17pic3 {
+    background-image: url(images/aw1711.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.aw17pic4 {
+    background-image: url(images/aw179.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.aw17pic5 {
+    background-image: url(images/aw177.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.aw17pic6 {
+    background-image: url(images/aw175.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.aw17pic7 {
+    background-image: url(images/aw173.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.aw17pic8 {
+    background-image: url(images/aw178.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- AW16 - Kollektioner - kollektioner/aw16.html ------------------------ */
+
+.aw16pic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw163.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.aw16pic2 {
+    background-image: url(images/aw167.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.aw16pic3 {
+    background-image: url(images/aw16.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.aw16pic4 {
+    background-image: url(images/aw166.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.aw16pic5 {
+    background-image: url(images/aw164.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.aw16pic6 {
+    background-image: url(images/aw165.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.aw16pic7 {
+    background-image: url(images/aw163.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.aw16pic8 {
+    background-image: url(images/aw162.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- Full Bloom - Kollektioner - kollektioner/full-bloom.html ------------------------ */
+
+.fbpic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/fb.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.fbpic2 {
+    background-image: url(images/fb7.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.fbpic3 {
+    background-image: url(images/fb4.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.fbpic4 {
+    background-image: url(images/fb1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.fbpic5 {
+    background-image: url(images/fb6.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.fbpic6 {
+    background-image: url(images/fb5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.fbpic7 {
+    background-image: url(images/fb2.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.fbpic8 {
+    background-image: url(images/fb3.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+
+/* ----- AW15 - Kollektioner - kollektioner/aw15.html ------------------------ */
+
+.aw15pic1 {
+    background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw153.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    margin-bottom: 1.2em;
+    text-align: left;
+    background-position: center;
+}
+
+.aw15pic2 {
+    background-image: url(images/aw157.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: top;
+}
+
+.aw15pic3 {
+    background-image: url(images/aw154.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 1.2em;
+    max-width: 100%;
+    background-position: center;
+    min-height: 50%;
+    background-size: cover;
+}
+
+.aw15pic4 {
+    background-image: url(images/aw150.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+}
+
+.aw15pic5 {
+    background-image: url(images/aw156.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+
+.aw15pic6 {
+    background-image: url(images/aw155.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 40%;
+}
+
+.aw15pic7 {
+    background-image: url(images/aw152.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 1.2em;
+
+}
+
+.aw15pic8 {
+    background-image: url(images/aw153.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 1.2em;
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+/* ----- Medieomtale - Omtale.html ------------------- */
+
+.r1 a {
+    width: 50%;
+}
+
+.omtale1 {
+    background-image: url(images/omtale1.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin-right: 1.2em;
+}
+
+.omtale2 {
+    background-image: url(images/omtale4.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.omtale3 {
+    background-image: url(images/omtale2.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin-right: 1.2em;
+    margin-top: .6em;
+}
+
+.omtale4 {
+    background-image: url(images/omtale3.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+    margin-top: .6em;
+}
+
+.omtale5 {
+    background-image: url(images/omtale5.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+    margin-right: 1.2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.omtale6 {
+    background-image: url(images/omtale6.png);
+    background-repeat: no-repeat;
+    border: 3px solid #cbcbcb;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    background-position: center;
+    min-height: 100%;
+    background-size: cover;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/* ----- Gallery - Index.html ------------------------ */
+
+.gallery {
+    border: 3px solid grey;
+    margin: 0 auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+.gallery:hover {
+    border: 3px solid #cbcbcb;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    color: black;
+    text-align: center;
+    padding-top: 0.5%;
+    font-size: 1.4rem;
+}
+
+.responsive {
+    padding: 0 6px;
+    padding-bottom: 2%;
+    float: left;
+    width: 44%;
+}
+
+input[type=radio] {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    padding-left: 0.5%;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+/* Gallery Kollektioner.html -------------------------------------- */
+
+.gallery2 {
+    border: 2px solid grey;
+    margin-bottom: 2%;
+}
+
+.gallery2:hover {
+    border: 2px solid #cbcbcb;
+}
+
+.gallery2 img {
+    width: 100%;
+    height: auto;
+}
+
+.desc2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.responsive2 {
+    padding: 0 6px;
+    float: left;
+    width: 45%;
+}
+
+input2[type=text] {
+    float: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    padding-left: 0.5%;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+    background-color: black;
+}
+
+/* Navigation Menus
+----------------------------------------------------------------- */
+
+#main_nav {
+    font-family: 'Raleway', sans-serif;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 00 8px 2px #000;
+    z-index: 999;
+}
+
+#main_nav li {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: 2%;
+    padding-top: 4%
+}
+
+#main_nav li a {
+    text-align: center;
+    color: black;
+}
+
+#main_nav:target {
+    display: block;
+}
+
+.access_aid {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 0;
+    padding-top: 40px;
+    margin: 2%;
+    overflow: hidden;
+    /*
+    border: 1px solid #ccc;
+    border-radius: 0px;*/
+    background: white 10px 10px / 20px 20px no-repeat;
+}
+
+#access_nav {
+    background-image: -webkit-repeating-linear-gradient(#ccc, #ccc 2px, #fff 2px, #fff 4px);
+    background-image: repeating-linear-gradient(#ccc, #ccc 3px, #fff 2px, #fff 7px);
+}
+
+#access_top {
+    background-image: linear-gradient(45deg, transparent 13px, #ccc 13px, #ccc 15px, transparent 0), linear-gradient(-45deg, white 13px, #ccc 15px, white 0);
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 1%;
+    padding-bottom: 0.5%;
+    color: white;
+    padding: 0.5%;
+}
+
+/* Footer ----------------------------- */
+
+/* -- mobile ------*/
+
+#mobile-footer {
+    height: auto;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#footer-content {
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+#footer-content p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+#footer-block {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 25%;
+}
+
+#footer-block img {
+    width: 15%;
+    margin-left: 4%;
+}
+
+/* --- Desktop footer ----- */
+
+#desktop-footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    height: auto;
+    border-top: double 3.5px;
+    box-shadow: 1px 1px 5px 1px;
+    padding-left: 20%;
+    padding-top: 0.5%;
+}
+
+.column {
+    float: left;
+    margin: 0 auto;
+}
+
+.left,
+.right {
+    width: 30%;
+}
+
+.middle {
+    width: 30%;
+}
+
+.right img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ----- Slideshow ------------------------------------------------------------------------------------------------------------------------------ */
+
+#i1,
+#i2,
+#i3,
+#i4,
+#i5 {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    position: relative;
+    width: 79%;
+    height: 0;
+    padding-bottom: 38%;
+    user-select: none;
+    background-color: #1c1c1c;
+    border: solid 7px grey;
+}
+
+.container .slide_img {
+    position: absolute;
+    width: 100%;
+    ;
+    height: 100%;
+}
+
+.container .slide_img img {
+    width: inherit;
+    height: inherit;
+}
+
+.prev,
+.next {
+    width: 12%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    background-color: rgba(88, 88, 88, .2);
+    color: rgba(244, 244, 244, .9);
+    z-index: 99;
+    transition: .45s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.next {
+    right: 0;
+}
+
+.prev {
+    left: 0;
+}
+
+label span {
+    position: absolute;
+    font-size: 100pt;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev:hover,
+.next:hover {
+    transition: .3s;
+    background-color: rgba(88, 88, 89, .8);
+    color: #ffffff;
+}
+
+.container #nav_slide {
+    width: 100%;
+    bottom: 12%;
+    height: 11px;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+    cursor: default;
+}
+
+#nav_slide .dots {
+    top: -5px;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    position: relative;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: .4s;
+}
+
+#nav_slide .dots:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: .25s
+}
+
+.slide_img {
+    z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three,
+#i4:checked ~ #four,
+#i5:checked ~ #five {
+    z-index: 9;
+    animation: scroll 1s ease-in-out;
+}
+
+#i1:checked ~ #nav_slide #dot1,
+#i2:checked ~ #nav_slide #dot2,
+#i3:checked ~ #nav_slide #dot3,
+#i4:checked ~ #nav_slide #dot4,
+#i5:checked ~ #nav_slide #dot5 {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+@keyframes scroll {
+    0% {
+        opacity: .4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ----- Media Query ------------------------------------------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 685px) {
+    .container {
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-bottom: 55%;
+    }
+    label span {
+        font-size: 50pt;
+    }
+    .prev,
+    .next {
+        width: 15%;
+    }
+    #nav_slide .dots {
+        width: 12px;
+        height: 12px;
+    }
+}
+
+@media only screen and (min-width: 220px) {
+    #navbar {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    header {
+        height: auto;
+        background-color: white;
+    }
+
+    #logo {
+        text-align: left;
+        padding: 1.2em;
+        /*        position: relative; */
+    }
+
+    #logo img {
+        width: 35%;
+    }
+
+    #desktop-footer {
+        display: none;
+    }
+    .clearfix2 {
+        overflow: auto;
+        margin: 0 auto;
+    }
+    .responsive {
+        width: 98%;
+    }
+    .responsive2 {
+        width: 98%;
+    }
+    .container-invitation {
+        margin-left: 28%;
+    }
+    input[type=text],
+    input[type=password] {
+        width: 35vw;
+    }
+    .registerbtn {
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        padding: 1%;
+        margin: 0 auto;
+        margin-left: 5%;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 35vw;
+    }
+    .content-left {
+        width: 98%;
+        float: left;
+        font-size: 1.2rem;
+    }
+    .content-right {
+        width: 98%;
+        float: left;
+        padding-bottom: 2%;
+        padding-top: 3%;
+    }
+    .content-right2 {
+        width: 98%;
+        float: left;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    #language {
+        display: none;
+    }
+    #invitation-center {
+        font-family: 'Raleway', sans-serif;
+        margin: 0 auto;
+        margin-left: 0.5%;
+        width: 98%;
+        float: left;
+        font-size: 1.1rem;
+    }
+    #invitation-info {
+        text-align: center;
+        width: 98%;
+        margin: 0 auto;
+        margin-left: 0.5%;
+        margin-top: 2%;
+        border: 3px solid grey;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 675px) {
+
+    #invitation-center {
+        font-family: 'Raleway', sans-serif;
+        padding-top: 1%;
+        margin: 0 auto;
+        margin-left: 7%;
+        margin-bottom: 2%;
+        width: 40%;
+        float: left;
+        font-size: 1.1rem;
+    }
+    #invitation-info {
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        margin-left: 5%;
+        margin-top: 5%;
+        border: 3px solid grey;
+        float: left;
+    }
+    #language {
+        display: block;
+        padding-top: 0.2%;
+    }
+    #language .current {
+        text-decoration: underline;
+    }
+
+    #language a {
+        border-left: 1px solid rgb(150, 150, 150);
+        padding-left: 0.5%;
+        text-decoration: none;
+    }
+
+    #language a:link {
+        color: rgb(150, 150, 150);
+    }
+
+    #language a:visited {
+        color: rgb(150, 150, 150);
+    }
+    .content-left {
+        width: 48%;
+        margin-left: 1%;
+        padding-top: 1.7%;
+        float: left;
+        font-size: 1.2rem;
+    }
+    .content-right {
+        width: 48%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    .content-right2 {
+        width: 48%;
+        float: left;
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+    .clearfix2 {
+        margin-left: 8.5%;
+    }
+    #logo {
+        width: 18%;
+        margin: 0 auto;
+        /* position: relative; */
+    }
+    .responsive {
+        width: 43%;
+        margin: 0 auto;
+        margin-left: 1%;
+    }
+    .responsive2 {
+        width: 48%;
+    }
+    div.desc2 {
+        font-size: 1.5rem;
+    }
+    /* desktop menu */
+    #menu {
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        /* text-align: center; */
+        width: 100%;
+    }
+    #menu ul {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    #menu nav li {
+        display: block;
+        flex: 0 1 auto;
+        list-style-type: none;
+    }
+    #menu nav li a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: black;
+    }
+    #menu li a:hover {
+        text-decoration: overline;
+    }
+    #menu .current {
+        text-decoration: overline;
+    }
+    /* Mobile menu */
+    .access_aid {
+        display: none;
+    }
+    nav {
+        position: absolute;
+        display: block;
+        width: 100%;
+        padding-top: 1.5%;
+        margin: 0 auto;
+    }
+    header {
+        height: auto;
+        background-color: white;
+        box-shadow: 1px 1px 5px #616161;
+        border-bottom: double 3.5px;
+        padding-bottom: 2.7em;
+    }
+    .container-invitation {
+        margin-left: 40%;
+    }
+    input[type=text],
+    input[type=password] {
+        width: 18vw;
+    }
+    .registerbtn {
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        padding: 1%;
+        margin: 0 auto;
+        margin-left: 2%;
+        border: 2px solid white;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 18vw;
+    }
+
+    /* ---- KOLLEKTIONER _ ASGER _ kollektioner.html ----------------- */
+    .kh1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/maj18w.jpg);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+    }
+
+    #c1 {
+        display: flex;
+        flex-direction: column;
+        padding: 2.4em;
+    }
+
+    #c1 h1 {
+        text-align: left;
+        padding: .8em;
+    }
+
+    .r1 {
+        display: flex;
+        min-height: 30em;
+        width: 100%;
+    }
+
+    .r2 {
+        display: flex;
+        height: 30em;
+        width: 100%;
+        margin-bottom: 0em;
+    }
+
+    .c2 {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .c3 {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .pic2 {
+        background-image: url(images/sc1.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .pic3 {
+        background-image: url(images/40.jpg);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .pic4 {
+        background-image: url(images/sc11.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .pic5 {
+        background-image: url(images/sc12.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .pic6 {
+        background-image: url(images/sc6.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .pic7 {
+        background-image: url(images/sc4.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .pic8 {
+        background-image: url(images/sc5.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    .flerekollektioner {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2em;
+    }
+
+    .flerekollektioner a {
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .flerekollektioner h2 {
+        color: #000;
+        text-align: left;
+        padding: 1em;
+        font-size: 2.2em;
+    }
+
+    .flerekollektioner section {
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .flerekollektioner section:hover {
+        border: 3px solid #848484;
+    }
+
+    .sc18 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/sc1.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        background-position: center;
+        width: 50%;
+        margin-right: 1.2em;
+    }
+
+    .sc18- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/sc1.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        background-position: center;
+        width: 50%;
+        margin-right: 1.2em;
+        margin-bottom: 0em;
+    }
+
+    .ss18 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss18.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        background-position: center;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+
+    .ss18- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss18.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        background-position: center;
+        width: 50%;
+    }
+
+    .aw17 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/aw17.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        margin-right: 1.2em;
+        background-position: center;
+        width: 50%;
+        max-width: 100%;
+    }
+
+    .aw17- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw17.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        margin-right: 1.2em;
+        background-position: center;
+        width: 50%;
+        max-width: 100%;
+    }
+
+    .ss17 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss17.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        max-width: 100%;
+        background-position: center;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+
+    .ss17- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss17.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        max-width: 100%;
+        background-position: center;
+        width: 50%;
+        margin-bottom: 0em;
+    }
+
+    .aw16 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/aw16.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        margin-right: 1.2em;
+        background-position: center;
+        width: 50%;
+    }
+
+    .aw16- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw16.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        margin-right: 1.2em;
+        background-position: center;
+        width: 50%;
+    }
+
+    .ss16 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/ss16.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        width: 50%;
+        max-width: 100%;
+        background-position: center;
+        margin-bottom: 0em;
+    }
+
+    .ss16- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/ss16.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        width: 50%;
+        max-width: 100%;
+        background-position: center;
+        margin-bottom: 0em;
+    }
+
+    .fb17 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, .6)), url(images/fullbloom.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        margin-right: 1.2em;
+        width: 50%;
+        background-position: center;
+    }
+
+    .fb17- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/fullbloom.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        margin-right: 1.2em;
+        width: 50%;
+        background-position: center;
+    }
+
+    .aw15 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw153.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        background-position: center;
+        width: 50%;
+    }
+
+    .aw15- {
+        background-image: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url(images/aw153.png);
+        background-repeat: no-repeat;
+        border: 3px solid grey;
+        background-position: center;
+        width: 50%;
+    }
+
+
+    /* ----- SS18 - Kollektioner - kollektioner/ss18.html ------------------------ */
+    .sspic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss18.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .sspic2 {
+        background-image: url(images/ss180.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .sspic3 {
+        background-image: url(images/ss18stof.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .sspic4 {
+        background-image: url(images/ss181.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .sspic5 {
+        background-image: url(images/ss187.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .sspic6 {
+        background-image: url(images/ss182.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .sspic7 {
+        background-image: url(images/ss186.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .sspic8 {
+        background-image: url(images/ss189.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    /* ----- SS17 - Kollektioner - kollektioner/ss17.html ------------------------ */
+    .ss17pic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss174.png);
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .ss17pic2 {
+        background-image: url(images/ss171.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+    }
+
+    .ss17pic3 {
+        background-image: url(images/ss172.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .ss17pic4 {
+        background-image: url(images/ss175.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .ss17pic5 {
+        background-image: url(images/ss176.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .ss17pic6 {
+        background-image: url(images/ss17.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .ss17pic7 {
+        background-image: url(images/ss179.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .ss17pic8 {
+        background-image: url(images/ss177.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    /* ----- SS17 - Kollektioner - kollektioner/ss17.html ------------------------ */
+    .ss16pic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/ss168.png);
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .ss16pic2 {
+        background-image: url(images/ss161.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .ss16pic3 {
+        background-image: url(images/ss162.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .ss16pic4 {
+        background-image: url(images/ss16.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .ss16pic5 {
+        background-image: url(images/ss166.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .ss16pic6 {
+        background-image: url(images/ss167.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .ss16pic7 {
+        background-image: url(images/ss169.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .ss16pic8 {
+        background-image: url(images/ss168.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    /* ----- AW17 - Kollektioner - kollektioner/aw17.html ------------------------ */
+    .aw17pic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw17.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .aw17pic2 {
+        background-image: url(images/aw176.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .aw17pic3 {
+        background-image: url(images/aw1711.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .aw17pic4 {
+        background-image: url(images/aw179.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .aw17pic5 {
+        background-image: url(images/aw177.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .aw17pic6 {
+        background-image: url(images/aw175.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .aw17pic7 {
+        background-image: url(images/aw173.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .aw17pic8 {
+        background-image: url(images/aw178.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    /* ----- AW16 - Kollektioner - kollektioner/aw16.html ------------------------ */
+    .aw16pic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw163.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .aw16pic2 {
+        background-image: url(images/aw167.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .aw16pic3 {
+        background-image: url(images/aw16.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .aw16pic4 {
+        background-image: url(images/aw166.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .aw16pic5 {
+        background-image: url(images/aw164.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .aw16pic6 {
+        background-image: url(images/aw165.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .aw16pic7 {
+        background-image: url(images/aw163.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .aw16pic8 {
+        background-image: url(images/aw162.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+    /* ----- Full Bloom - Kollektioner - kollektioner/full-bloom.html ------------------------ */
+    .fbpic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/fb.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .fbpic2 {
+        background-image: url(images/fb7.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .fbpic3 {
+        background-image: url(images/fb4.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .fbpic4 {
+        background-image: url(images/fb1.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .fbpic5 {
+        background-image: url(images/fb6.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fbpic6 {
+        background-image: url(images/fb5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .fbpic7 {
+        background-image: url(images/fb2.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .fbpic8 {
+        background-image: url(images/fb3.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+
+    /* ----- AW15 - Kollektioner - kollektioner/aw15.html ------------------------ */
+    .aw15pic1 {
+        background-image: linear-gradient(rgba(255, 255, 255, .9), rgba(255, 255, 255, 0.6)), url(images/aw15.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        margin-bottom: 1.2em;
+        text-align: left;
+        background-position: center;
+    }
+
+    .aw15pic2 {
+        background-image: url(images/aw157.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 100%;
+        height: 50%;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .aw15pic3 {
+        background-image: url(images/aw154.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-top: 1.2em;
+        max-width: 100%;
+        background-position: center;
+        min-height: 50%;
+        background-size: cover;
+    }
+
+    .aw15pic4 {
+        background-image: url(images/aw150.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+    }
+
+    .aw15pic5 {
+        background-image: url(images/aw156.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .aw15pic6 {
+        background-image: url(images/aw155.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 40%;
+    }
+
+    .aw15pic7 {
+        background-image: url(images/aw152.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        width: 30%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 1.2em;
+
+    }
+
+    .aw15pic8 {
+        background-image: url(images/aw153.png);
+        background-repeat: no-repeat;
+        border: 3px solid #cbcbcb;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        margin-left: 1.2em;
+        background-position: center;
+        background-size: cover;
+        width: 30%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+    .me {
+        display: none;
+    }
+    .responsive2 {
+        width: 32%;
+    }
+    .flex-kontakt {
+        display: flex;
+        flex-direction: row;
+        margin-top: -1.7rem;
+        margin-bottom: -1rem;
+    }
+
+    .kontaktinfo {
+        width: 100%;
+        padding: 1.4rem;
+    }
+
+    .kontaktinfo p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+        padding-top: 1%;
+    }
+
+    .kontaktinfo h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3rem;
+    }
+    .kontaktinfo h2 {
+        font-family: 'Raleway', sans-serif;
+        padding-top: 2%;
+    }
+
+    .kontaktpic {
+        width: 100%;
+        padding: 2em;
+    }
+    .kontaktpic img {
+        width: 100%;
+        border: 3px solid grey;
+    }
+    .flex-kontakt {
+        display: flex;
+        flex-direction: row;
+        margin-top: -1.7rem;
+        margin-bottom: -1.7rem;
+    }
+    .kontaktinfo {
+        width: 100%;
+        padding: 1.4rem;
+    }
+
+    .kontaktinfo p {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5rem;
+    }
+    .kontaktinfo h1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 3rem;
+    }
+    #mobile-footer {
+        display: none;
+    }
+    #desktop-footer {
+        display: block;
+    }
+    #menu {
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        /* text-align: center; */
+        width: 100%;
+    }
+    #menu ul {
+        display: flex;
+        align-items: stretch;
+        justify-content: space-between;
+        margin: 0;
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+    #menu nav li {
+        display: block;
+        flex: 0 1 auto;
+        list-style-type: none;
+    }
+    #menu nav li a {
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: black;
+    }
+    #menu li a:hover {
+        text-decoration: overline;
+    }
+    #menu .current {
+        text-decoration: overline;
+    }
+}
